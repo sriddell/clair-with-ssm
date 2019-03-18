@@ -9,5 +9,6 @@ COPY --from=build /go/src/get-ssm/get-ssm /get-ssm
 ADD run.sh /run.sh
 RUN chmod +x /run.sh
 
+ENV LOG_LEVEL=info
 ENTRYPOINT ["/run.sh"]
 
