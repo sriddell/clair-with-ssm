@@ -1,0 +1,1 @@
+Simple extension to Clair image that allows the Clair configuration to be read from the encrypted ssm parameter store, to protect sensitive values, such as database credentials.
